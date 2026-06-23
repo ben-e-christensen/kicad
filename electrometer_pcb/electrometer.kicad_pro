@@ -583,7 +583,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "Electrometer V1.net",
-      "plot": "D:/",
+      "plot": "D:/pcbs/electrometer/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
