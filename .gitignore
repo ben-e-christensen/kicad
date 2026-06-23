@@ -1,3 +1,9 @@
+# KiCad Manufacturing Outputs
+*.drl
+*.gbr
+*.gbrjob
+
+# IDE / Editor History Folders
 history/
 .history/
 *.history/
