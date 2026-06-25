@@ -648,13 +648,21 @@
         "uuid": "c11b5a22-e247-49dd-9cbb-13b73c70dac7"
       }
     ],
-    "used_designators": "U1-10,D1-5,C1-4,Y1,Q1-4,SW1,FL1,J1-2",
+    "used_designators": "C9-18,#PWR6-31,R3,J5-10,U13",
     "variants": []
   },
   "sheets": [
     [
       "c11b5a22-e247-49dd-9cbb-13b73c70dac7",
       "Root"
+    ],
+    [
+      "d0f0db2b-194b-4e77-b75b-b75f2a19be51",
+      "Indicator Lights"
+    ],
+    [
+      "1cdd6dc3-0766-4f4b-9cd1-5a4b5d3a58f0",
+      "Power"
     ]
   ],
   "text_variables": {},
