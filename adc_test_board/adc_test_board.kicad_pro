@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 3.048,
-          "height": 4.0,
-          "width": 4.0
+          "drill": 0.8,
+          "height": 1.27,
+          "width": 2.54
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -488,7 +488,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "can_tester.kicad_pro",
+    "filename": "adc_test_board.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -508,8 +508,8 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3,
         "tuning_profile": "",
-        "via_diameter": 1.0,
-        "via_drill": 0.7,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 6
       }
     ],
@@ -524,7 +524,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "D:/comms_board/",
+      "plot": "D:/",
       "specctra_dsn": "",
       "vrml": ""
     },
@@ -643,9 +643,9 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "can_tester.kicad_sch",
-        "name": "can_tester",
-        "uuid": "ba322127-2b18-4064-b78f-4cb98e53d4ab"
+        "filename": "adc_test_board.kicad_sch",
+        "name": "adc_test_board",
+        "uuid": "cd800c29-1cd4-4089-823f-89616c2036f1"
       }
     ],
     "used_designators": "",
@@ -653,8 +653,8 @@
   },
   "sheets": [
     [
-      "ba322127-2b18-4064-b78f-4cb98e53d4ab",
-      "can_tester"
+      "cd800c29-1cd4-4089-823f-89616c2036f1",
+      "adc_test_board"
     ]
   ],
   "text_variables": {},

@@ -3724,16 +3724,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Use jumpers to set I2C address\nGND 1001000b\nVDD 1001001b\nSDA (Blue) 1001010b\nSCL (Yellow) 1001011b"
-		(exclude_from_sim no)
-		(at 230.632 107.696 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "1acce435-14f7-47d1-b8df-a49caf1b6ef7")
-	)
 	(text "Steady 5V supply for INA159 (V+ could go above max voltage)\n"
 		(exclude_from_sim no)
 		(at 128.778 16.002 0)
@@ -3753,6 +3743,16 @@
 			)
 		)
 		(uuid "21cb4b5d-8ae2-429a-89db-6e4f87616e92")
+	)
+	(text "Tying ADDR to GND makes the I2C address 1001000b\n"
+		(exclude_from_sim no)
+		(at 228.854 84.582 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2b039333-1d1d-40be-b840-3fd27f1b8b46")
 	)
 	(text "Electrometer - first stage is charge reading, second stage is for gain (unity or 10x based on header pins)\n"
 		(exclude_from_sim no)
@@ -3861,6 +3861,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b8034d05-d4ee-42ad-919b-2f7d2255ff68")
+	)
+	(junction
+		(at 228.6 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8c35e2d-8e5a-4e0b-9b2d-007527007d14")
 	)
 	(junction
 		(at 157.48 67.31)
@@ -4348,6 +4354,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 77.47) (xy 238.76 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a12875a7-e0ea-4a15-b702-b0ccd9d5e87d")
+	)
+	(wire
+		(pts
 			(xy 81.28 85.09) (xy 81.28 90.17)
 		)
 		(stroke
@@ -4395,6 +4411,16 @@
 			(type default)
 		)
 		(uuid "b3d8c164-cbf7-43b0-9dd8-d2707760cd39")
+	)
+	(wire
+		(pts
+			(xy 238.76 72.39) (xy 238.76 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b446354c-876b-4bb8-b0f3-dfc28eff4402")
 	)
 	(wire
 		(pts
@@ -4546,26 +4572,6 @@
 		)
 		(uuid "f4954376-43bb-4b19-9a47-f8a8109685d8")
 	)
-	(label "ADDR"
-		(at 217.17 95.25 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "16da8e8a-57b8-4593-9e29-7a595ee31cd7")
-	)
-	(label "ADDR"
-		(at 241.3 95.25 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "16e0a4c9-3c60-44ca-b80d-3f96404bcaee")
-	)
 	(label "Output"
 		(at 111.76 105.41 0)
 		(effects
@@ -4596,16 +4602,6 @@
 		)
 		(uuid "5fe7bb6f-99bd-4d99-9ebf-96086ed56771")
 	)
-	(label "ADDR"
-		(at 238.76 72.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7005c4c5-25ca-41d4-9018-ea02713c387c")
-	)
 	(label "Yellow"
 		(at 255.27 67.31 0)
 		(effects
@@ -4615,16 +4611,6 @@
 			(justify left bottom)
 		)
 		(uuid "7dec489a-2648-489c-a87c-8ed914f15456")
-	)
-	(label "Yellow"
-		(at 219.71 95.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "95b39862-5685-4a51-ae64-b63a4cc657e2")
 	)
 	(label "Blue"
 		(at 255.27 64.77 0)
@@ -4645,16 +4631,6 @@
 			(justify left bottom)
 		)
 		(uuid "a62a0bd6-cfa2-4661-a15e-bc3f36354401")
-	)
-	(label "Blue"
-		(at 243.84 95.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e2bdfa1a-df7d-4f5c-994a-77851b3c2e1a")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -4729,89 +4705,6 @@
 			(project "electrometer"
 				(path "/9dd08b45-3317-4aba-9f9e-f2bde7cd72cf"
 					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x03_Pin")
-		(at 217.17 90.17 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "07fe115d-da29-4663-bbc5-66bbd3540010")
-		(property "Reference" "J6"
-			(at 217.17 85.09 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x03_Pin"
-			(at 217.17 87.63 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 217.17 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 217.17 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 217.17 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e325df75-6cbf-4afd-9fd1-1316b6a85304")
-		)
-		(pin "2"
-			(uuid "6d774d9b-ad8a-4cf1-893a-ebb41a574d9b")
-		)
-		(pin "3"
-			(uuid "fc5d1752-af9f-45b9-874a-7075df40d25f")
-		)
-		(instances
-			(project "electrometer"
-				(path "/9dd08b45-3317-4aba-9f9e-f2bde7cd72cf"
-					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -5324,7 +5217,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10"
 			(at 49.53 44.45 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6483,89 +6376,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x03_Pin")
-		(at 241.3 90.17 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8cc85d6c-567d-456d-aa39-cedaa2e9fc2e")
-		(property "Reference" "J7"
-			(at 241.3 85.09 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x03_Pin"
-			(at 241.3 87.63 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 241.3 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 241.3 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9a0ef7b7-9756-47e1-bd51-05aa8195068d")
-		)
-		(pin "2"
-			(uuid "34ebc7d0-955d-4817-9b24-fe9c5f48c33a")
-		)
-		(pin "3"
-			(uuid "f799bc12-9245-4093-9b31-91bcdc404852")
-		)
-		(instances
-			(project "electrometer"
-				(path "/9dd08b45-3317-4aba-9f9e-f2bde7cd72cf"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 140.97 30.48 180)
 		(unit 1)
@@ -6906,85 +6716,6 @@
 			(project "electrometer"
 				(path "/9dd08b45-3317-4aba-9f9e-f2bde7cd72cf"
 					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 214.63 95.25 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "adc04d75-686a-46a8-b9f9-5e8f12545dc8")
-		(property "Reference" "#PWR026"
-			(at 218.44 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 210.82 95.2499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 214.63 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 214.63 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 214.63 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "573a3762-e292-4d75-b131-f434742fdb65")
-		)
-		(instances
-			(project "electrometer"
-				(path "/9dd08b45-3317-4aba-9f9e-f2bde7cd72cf"
-					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -7888,84 +7619,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 238.76 95.25 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cb989063-1748-465b-92f1-e6e224cf6d3c")
-		(property "Reference" "#PWR025"
-			(at 232.41 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 234.95 95.2499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 238.76 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 238.76 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 238.76 95.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8286ef29-fa1d-4831-b796-67ea6d95ffad")
-		)
-		(instances
-			(project "electrometer"
-				(path "/9dd08b45-3317-4aba-9f9e-f2bde7cd72cf"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+2V5")
 		(at 151.13 72.39 90)
 		(unit 1)
@@ -8066,7 +7719,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10"
 			(at 49.53 21.59 90)
 			(show_name no)
 			(do_not_autoplace no)
