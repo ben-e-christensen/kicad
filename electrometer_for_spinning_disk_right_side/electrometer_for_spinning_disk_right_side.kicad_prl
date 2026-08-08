@@ -63,7 +63,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "electrometer_for_spinning_disk.kicad_prl",
+    "filename": "electrometer_for_spinning_disk_right_side.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {

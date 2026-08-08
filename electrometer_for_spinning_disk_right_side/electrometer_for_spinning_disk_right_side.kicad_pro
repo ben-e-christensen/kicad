@@ -501,7 +501,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "electrometer_for_spinning_disk.kicad_pro",
+    "filename": "electrometer_for_spinning_disk_right_side.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -537,7 +537,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "D:/",
+      "plot": "",
       "specctra_dsn": "",
       "vrml": ""
     },
@@ -656,8 +656,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "electrometer_for_spinning_disk.kicad_sch",
-        "name": "electrometer_for_spinning_disk",
+        "filename": "electrometer_for_spinning_disk_right_side.kicad_sch",
+        "name": "electrometer_for_spinning_disk_right_side",
         "uuid": "9f68a0c6-015a-4a20-8c62-b92ea580298b"
       }
     ],

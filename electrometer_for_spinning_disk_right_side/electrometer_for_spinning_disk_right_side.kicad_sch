@@ -3180,7 +3180,7 @@
 			(uuid "54a9d9be-a6d9-4b65-b138-c982165e2595")
 		)
 		(instances
-			(project "electrometer_for_spinning_disk"
+			(project "electrometer_for_spinning_disk_right_side"
 				(path "/9f68a0c6-015a-4a20-8c62-b92ea580298b"
 					(reference "FB2")
 					(unit 1)
@@ -3259,7 +3259,7 @@
 			(uuid "5e55ec3c-cc76-4727-8b86-16a6f629ed1e")
 		)
 		(instances
-			(project "electrometer_for_spinning_disk"
+			(project "electrometer_for_spinning_disk_right_side"
 				(path "/9f68a0c6-015a-4a20-8c62-b92ea580298b"
 					(reference "R12")
 					(unit 1)
@@ -3337,7 +3337,7 @@
 			(uuid "97022c41-58b6-442d-9a22-7a70e7aa0629")
 		)
 		(instances
-			(project "electrometer_for_spinning_disk"
+			(project "electrometer_for_spinning_disk_right_side"
 				(path "/9f68a0c6-015a-4a20-8c62-b92ea580298b"
 					(reference "#PWR022")
 					(unit 1)
@@ -3416,7 +3416,7 @@
 			(uuid "bc11dddb-0379-4866-8739-5cece2c3b0d5")
 		)
 		(instances
-			(project "electrometer_for_spinning_disk"
+			(project "electrometer_for_spinning_disk_right_side"
 				(path "/9f68a0c6-015a-4a20-8c62-b92ea580298b"
 					(reference "#PWR015")
 					(unit 1)
@@ -3494,7 +3494,7 @@
 			(uuid "514ddaf9-8401-4da9-b190-886cfaa37dd9")
 		)
 		(instances
-			(project "electrometer_for_spinning_disk"
+			(project "electrometer_for_spinning_disk_right_side"
 				(path "/9f68a0c6-015a-4a20-8c62-b92ea580298b"
 					(reference "#PWR016")
 					(unit 1)
@@ -3573,7 +3573,7 @@
 			(uuid "2f7dc97a-b023-47f7-ada2-35754a27dde5")
 		)
 		(instances
-			(project "electrometer_for_spinning_disk"
+			(project "electrometer_for_spinning_disk_right_side"
 				(path "/9f68a0c6-015a-4a20-8c62-b92ea580298b"
 					(reference "R2")
 					(unit 1)
@@ -3672,7 +3672,7 @@
 			(uuid "81f11f93-ddf3-42b0-980a-52d2d038da0e")
 		)
 		(instances
-			(project "electrometer_for_spinning_disk"
+			(project "electrometer_for_spinning_disk_right_side"
 				(path "/9f68a0c6-015a-4a20-8c62-b92ea580298b"
 					(reference "U5")
 					(unit 1)
@@ -3770,7 +3770,7 @@
 			(uuid "1de4c65f-21f4-4a53-ab05-d83f700c2e39")
 		)
 		(instances
-			(project "electrometer_for_spinning_disk"
+			(project "electrometer_for_spinning_disk_right_side"
 				(path "/9f68a0c6-015a-4a20-8c62-b92ea580298b"
 					(reference "U1")
 					(unit 1)
@@ -3849,7 +3849,7 @@
 			(uuid "62df92d0-d8b1-4a0a-a69e-134bac198c33")
 		)
 		(instances
-			(project "electrometer_for_spinning_disk"
+			(project "electrometer_for_spinning_disk_right_side"
 				(path "/9f68a0c6-015a-4a20-8c62-b92ea580298b"
 					(reference "R9")
 					(unit 1)
@@ -3930,7 +3930,7 @@
 			(uuid "fd3b6cc0-a86f-475e-bd55-f103988aa35c")
 		)
 		(instances
-			(project "electrometer_for_spinning_disk"
+			(project "electrometer_for_spinning_disk_right_side"
 				(path "/9f68a0c6-015a-4a20-8c62-b92ea580298b"
 					(reference "C3")
 					(unit 1)
@@ -4008,7 +4008,7 @@
 			(uuid "d5b519e3-f061-4aac-8c37-cdc8ddba021a")
 		)
 		(instances
-			(project "electrometer_for_spinning_disk"
+			(project "electrometer_for_spinning_disk_right_side"
 				(path "/9f68a0c6-015a-4a20-8c62-b92ea580298b"
 					(reference "#PWR021")
 					(unit 1)
@@ -4085,7 +4085,7 @@
 			(uuid "20a03b93-1c3b-44a4-9246-33a6582a556b")
 		)
 		(instances
-			(project "electrometer_for_spinning_disk"
+			(project "electrometer_for_spinning_disk_right_side"
 				(path "/9f68a0c6-015a-4a20-8c62-b92ea580298b"
 					(reference "#PWR018")
 					(unit 1)
@@ -4163,7 +4163,7 @@
 			(uuid "f8786d6f-e3a7-4e7a-a777-3fb13b8de357")
 		)
 		(instances
-			(project "electrometer_for_spinning_disk"
+			(project "electrometer_for_spinning_disk_right_side"
 				(path "/9f68a0c6-015a-4a20-8c62-b92ea580298b"
 					(reference "#PWR017")
 					(unit 1)
@@ -4263,7 +4263,7 @@
 			(uuid "0c5d35de-76b0-4a27-a278-6d4b33ff50e5")
 		)
 		(instances
-			(project "electrometer_for_spinning_disk"
+			(project "electrometer_for_spinning_disk_right_side"
 				(path "/9f68a0c6-015a-4a20-8c62-b92ea580298b"
 					(reference "U1")
 					(unit 3)
@@ -4340,7 +4340,7 @@
 			(uuid "afdb94cc-47dc-4afa-bf16-9887ad827fae")
 		)
 		(instances
-			(project "electrometer_for_spinning_disk"
+			(project "electrometer_for_spinning_disk_right_side"
 				(path "/9f68a0c6-015a-4a20-8c62-b92ea580298b"
 					(reference "#PWR08")
 					(unit 1)
@@ -4425,7 +4425,7 @@
 			(uuid "db1d2281-4949-4b06-9f35-171a27744493")
 		)
 		(instances
-			(project "electrometer_for_spinning_disk"
+			(project "electrometer_for_spinning_disk_right_side"
 				(path "/9f68a0c6-015a-4a20-8c62-b92ea580298b"
 					(reference "J4")
 					(unit 1)
@@ -4503,7 +4503,7 @@
 			(uuid "4bc563f8-2af0-43db-b0d5-27441ed6add5")
 		)
 		(instances
-			(project "electrometer_for_spinning_disk"
+			(project "electrometer_for_spinning_disk_right_side"
 				(path "/9f68a0c6-015a-4a20-8c62-b92ea580298b"
 					(reference "#PWR06")
 					(unit 1)
@@ -4582,7 +4582,7 @@
 			(uuid "d556f25a-e19a-435f-b65a-989e223a1cb7")
 		)
 		(instances
-			(project "electrometer_for_spinning_disk"
+			(project "electrometer_for_spinning_disk_right_side"
 				(path "/9f68a0c6-015a-4a20-8c62-b92ea580298b"
 					(reference "#PWR012")
 					(unit 1)
@@ -4662,7 +4662,7 @@
 			(uuid "1af85ae7-91dd-4897-ab9f-312e57d76894")
 		)
 		(instances
-			(project "electrometer_for_spinning_disk"
+			(project "electrometer_for_spinning_disk_right_side"
 				(path "/9f68a0c6-015a-4a20-8c62-b92ea580298b"
 					(reference "FB1")
 					(unit 1)
@@ -4744,7 +4744,7 @@
 			(uuid "e9dab2c3-ca34-49f5-b280-8303ce7a01fa")
 		)
 		(instances
-			(project "electrometer_for_spinning_disk"
+			(project "electrometer_for_spinning_disk_right_side"
 				(path "/9f68a0c6-015a-4a20-8c62-b92ea580298b"
 					(reference "C4")
 					(unit 1)
@@ -4827,7 +4827,7 @@
 			(uuid "e564ad42-408e-475c-ad46-71d352f68e40")
 		)
 		(instances
-			(project "electrometer_for_spinning_disk"
+			(project "electrometer_for_spinning_disk_right_side"
 				(path "/9f68a0c6-015a-4a20-8c62-b92ea580298b"
 					(reference "J2")
 					(unit 1)
@@ -4906,7 +4906,7 @@
 			(uuid "e35c10f5-3ea4-4d17-abe5-d9c09b017cab")
 		)
 		(instances
-			(project "electrometer_for_spinning_disk"
+			(project "electrometer_for_spinning_disk_right_side"
 				(path "/9f68a0c6-015a-4a20-8c62-b92ea580298b"
 					(reference "R11")
 					(unit 1)
@@ -4983,7 +4983,7 @@
 			(uuid "3e351144-ed36-48f1-9508-3e0756b47beb")
 		)
 		(instances
-			(project "electrometer_for_spinning_disk"
+			(project "electrometer_for_spinning_disk_right_side"
 				(path "/9f68a0c6-015a-4a20-8c62-b92ea580298b"
 					(reference "#PWR02")
 					(unit 1)
@@ -5061,7 +5061,7 @@
 			(uuid "37cccb9e-29bc-4efd-aaa0-99ef1d11db98")
 		)
 		(instances
-			(project "electrometer_for_spinning_disk"
+			(project "electrometer_for_spinning_disk_right_side"
 				(path "/9f68a0c6-015a-4a20-8c62-b92ea580298b"
 					(reference "#PWR09")
 					(unit 1)
@@ -5140,7 +5140,7 @@
 			(uuid "9bd9865f-f7b5-4338-ba32-44c831474761")
 		)
 		(instances
-			(project "electrometer_for_spinning_disk"
+			(project "electrometer_for_spinning_disk_right_side"
 				(path "/9f68a0c6-015a-4a20-8c62-b92ea580298b"
 					(reference "#PWR05")
 					(unit 1)
@@ -5219,7 +5219,7 @@
 			(uuid "240073b1-7610-487c-82c9-77a2df582fb8")
 		)
 		(instances
-			(project "electrometer_for_spinning_disk"
+			(project "electrometer_for_spinning_disk_right_side"
 				(path "/9f68a0c6-015a-4a20-8c62-b92ea580298b"
 					(reference "R10")
 					(unit 1)
@@ -5298,7 +5298,7 @@
 			(uuid "a3063ce5-a853-4518-a97b-8e4a311c6b20")
 		)
 		(instances
-			(project "electrometer_for_spinning_disk"
+			(project "electrometer_for_spinning_disk_right_side"
 				(path "/9f68a0c6-015a-4a20-8c62-b92ea580298b"
 					(reference "#PWR019")
 					(unit 1)
@@ -5384,7 +5384,7 @@
 			(uuid "ed55b3c7-f2e6-491c-ac30-6312cd06696f")
 		)
 		(instances
-			(project "electrometer_for_spinning_disk"
+			(project "electrometer_for_spinning_disk_right_side"
 				(path "/9f68a0c6-015a-4a20-8c62-b92ea580298b"
 					(reference "U3")
 					(unit 1)
@@ -5462,7 +5462,7 @@
 			(uuid "ab1f1aa3-3d56-4f45-86f4-cbe65b06dbc3")
 		)
 		(instances
-			(project "electrometer_for_spinning_disk"
+			(project "electrometer_for_spinning_disk_right_side"
 				(path "/9f68a0c6-015a-4a20-8c62-b92ea580298b"
 					(reference "#PWR014")
 					(unit 1)
@@ -5541,7 +5541,7 @@
 			(uuid "85f5ef25-c8f7-474d-ad78-7ceb37377770")
 		)
 		(instances
-			(project "electrometer_for_spinning_disk"
+			(project "electrometer_for_spinning_disk_right_side"
 				(path "/9f68a0c6-015a-4a20-8c62-b92ea580298b"
 					(reference "C1")
 					(unit 1)
@@ -5618,7 +5618,7 @@
 			(uuid "14d79ea8-6b64-42c2-95d6-e4f96d9c66c2")
 		)
 		(instances
-			(project "electrometer_for_spinning_disk"
+			(project "electrometer_for_spinning_disk_right_side"
 				(path "/9f68a0c6-015a-4a20-8c62-b92ea580298b"
 					(reference "#PWR07")
 					(unit 1)
@@ -5716,7 +5716,7 @@
 			(uuid "288ea165-5553-4d6e-8f98-24396aee7a93")
 		)
 		(instances
-			(project "electrometer_for_spinning_disk"
+			(project "electrometer_for_spinning_disk_right_side"
 				(path "/9f68a0c6-015a-4a20-8c62-b92ea580298b"
 					(reference "U1")
 					(unit 2)
@@ -5794,7 +5794,7 @@
 			(uuid "e4996752-cf5b-46bd-872f-ef790f9238f7")
 		)
 		(instances
-			(project "electrometer_for_spinning_disk"
+			(project "electrometer_for_spinning_disk_right_side"
 				(path "/9f68a0c6-015a-4a20-8c62-b92ea580298b"
 					(reference "C7")
 					(unit 1)
@@ -5872,7 +5872,7 @@
 			(uuid "ebb5f962-18fb-4aee-93b4-83e809716cd5")
 		)
 		(instances
-			(project "electrometer_for_spinning_disk"
+			(project "electrometer_for_spinning_disk_right_side"
 				(path "/9f68a0c6-015a-4a20-8c62-b92ea580298b"
 					(reference "#PWR020")
 					(unit 1)
@@ -5951,7 +5951,7 @@
 			(uuid "d2482d47-5e6c-493f-8e51-f416e108e107")
 		)
 		(instances
-			(project "electrometer_for_spinning_disk"
+			(project "electrometer_for_spinning_disk_right_side"
 				(path "/9f68a0c6-015a-4a20-8c62-b92ea580298b"
 					(reference "#PWR010")
 					(unit 1)
@@ -6032,7 +6032,7 @@
 			(uuid "f42e5332-71ee-44a2-9c57-571647b9603e")
 		)
 		(instances
-			(project "electrometer_for_spinning_disk"
+			(project "electrometer_for_spinning_disk_right_side"
 				(path "/9f68a0c6-015a-4a20-8c62-b92ea580298b"
 					(reference "C6")
 					(unit 1)
@@ -6111,7 +6111,7 @@
 			(uuid "25a229fb-2272-4ce0-b709-406f3999905b")
 		)
 		(instances
-			(project "electrometer_for_spinning_disk"
+			(project "electrometer_for_spinning_disk_right_side"
 				(path "/9f68a0c6-015a-4a20-8c62-b92ea580298b"
 					(reference "R1")
 					(unit 1)
@@ -6192,7 +6192,7 @@
 			(uuid "0ef80230-7206-43bd-8727-6b865561ff0f")
 		)
 		(instances
-			(project "electrometer_for_spinning_disk"
+			(project "electrometer_for_spinning_disk_right_side"
 				(path "/9f68a0c6-015a-4a20-8c62-b92ea580298b"
 					(reference "C2")
 					(unit 1)
@@ -6274,7 +6274,7 @@
 			(uuid "41cb0e66-6b4d-4776-b9d3-c562f4f72514")
 		)
 		(instances
-			(project "electrometer_for_spinning_disk"
+			(project "electrometer_for_spinning_disk_right_side"
 				(path "/9f68a0c6-015a-4a20-8c62-b92ea580298b"
 					(reference "C5")
 					(unit 1)
@@ -6352,7 +6352,7 @@
 			(uuid "9bba8309-e30b-4d40-bfe5-71f752056ded")
 		)
 		(instances
-			(project "electrometer_for_spinning_disk"
+			(project "electrometer_for_spinning_disk_right_side"
 				(path "/9f68a0c6-015a-4a20-8c62-b92ea580298b"
 					(reference "#PWR011")
 					(unit 1)
@@ -6394,7 +6394,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type055_RT01503HDWU_1x03_P5.00mm_Horizontal"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PTSM-0,5-3-2,5-V-SMD_1x03-1MP_P2.50mm_Vertical"
 			(at 50.8 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -6437,7 +6437,7 @@
 			(uuid "66c36955-52dd-4aa4-a223-ec18bf989538")
 		)
 		(instances
-			(project "electrometer_for_spinning_disk"
+			(project "electrometer_for_spinning_disk_right_side"
 				(path "/9f68a0c6-015a-4a20-8c62-b92ea580298b"
 					(reference "J3")
 					(unit 1)
@@ -6514,7 +6514,7 @@
 			(uuid "092a0a99-282e-4f9a-8636-f8cda3204b45")
 		)
 		(instances
-			(project "electrometer_for_spinning_disk"
+			(project "electrometer_for_spinning_disk_right_side"
 				(path "/9f68a0c6-015a-4a20-8c62-b92ea580298b"
 					(reference "#PWR04")
 					(unit 1)
@@ -6591,7 +6591,7 @@
 			(uuid "30df4cd6-46b1-4a0e-9eb9-4cb2900522b6")
 		)
 		(instances
-			(project "electrometer_for_spinning_disk"
+			(project "electrometer_for_spinning_disk_right_side"
 				(path "/9f68a0c6-015a-4a20-8c62-b92ea580298b"
 					(reference "#PWR03")
 					(unit 1)
